@@ -1,0 +1,111 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    background-color: #242933;
+}
+
+form {
+    font-size:13px;
+    background-color: #2f3644;
+    border: 1px solid #3e445b;
+    border-radius: 3px;
+    max-width: 340px;
+    margin: 1em auto 2em;
+}
+
+h1 {
+    margin: auto;
+    height: 25px;
+    width: 280px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-top: 35px;
+    font-size: 23px;
+    color: #acbae1;
+}
+
+p {
+    width: 280px;
+    margin: 5px auto;
+    font-size: 15px;
+    color:#818bac;
+} 
+
+span {
+    margin: 5px 30px;
+    width: 280px;
+    font-size: 12px;
+    color: #fe5f55;
+}
+
+div {
+    margin: 1em auto;
+    height: 75px;
+    display: block;
+}
+
+.formulario__validacion-estado {
+    position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.inputElement {
+    display: block;
+    margin: auto;
+    height: 32px;
+    width: 270px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #40465d;    
+    text-indent: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.valid {
+    border-color: #4eca64;
+    border-radius: 3px;
+}
+
+.sucessIcon{
+    background-image: url('imagenes/success-icon.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 250px;
+    background-position-y: 10px;
+}
+
+.invalid {
+    border-color: #db5a5a;
+    border-radius: 3px;
+}
+
+.errorIcon{
+    background-image: url('imagenes/error-icon.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 250px;
+    background-position-y: 10px;
+}
+
+#button {
+    display: block;
+    width: 82%;
+    height: 40px;
+    margin: 15px auto 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background-color: #6c63ff;
+    border: 1px #0a0b0e solid;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.borderColor {
+    background: #4b44d1 !important;
+}
