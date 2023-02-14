@@ -1,6 +1,8 @@
 # Final Project:
 In this repository you can find Cristina Santa Cruz's solution for the final activity of the Front-End Development course (Level II). This is based on creating a form that allows to create a fictitious account to access a web page with the following aspect.
 
+![](imagenes/ImagenFormulario.png)
+
 The validations that must be fulfilled are:
 - All fields must be mandatory or else we will get an error.
 - The Name field must be of type Text, any numeric character will not be admitted.
